@@ -15,7 +15,7 @@ services:
       - postgres_data_db:/var/lib/postgresql/data
 
   api:
-    image: majirriz20/agua-fix-api:latest
+    image: pao123/agua-fix-api:latest
     container_name: aguafix-api
     restart: always
     depends_on:
